@@ -1,4 +1,4 @@
 package com.example.echo.db;
 
-public class candidateDB {
+public class EventDB {
 }

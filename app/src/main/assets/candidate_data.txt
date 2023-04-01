@@ -1,0 +1,338 @@
+[
+    {
+      "name": "Samantha Smith",
+      "gender": "female",
+      "email": "samantha.smith@example.com",
+      "phone": "(555) 555-1234",
+      "potential_job": "Sales Representative",
+      "location": "Seattle, Washington"
+    },
+    {
+      "name": "John Doe",
+      "gender": "male",
+      "email": "john.doe@example.com",
+      "phone": "(555) 555-5678",
+      "potential_job": "Logistics Coordinator",
+      "location": "Miami, Florida"
+    },
+    {
+      "name": "Emily Nguyen",
+      "gender": "female",
+      "email": "emily.nguyen@example.com",
+      "phone": "(555) 555-9012",
+      "potential_job": "Environmental Health and Safety Specialist",
+      "location": "Houston, Texas"
+    },
+    {
+      "name": "Jessica Kim",
+      "gender": "female",
+      "email": "jessica.kim@example.com",
+      "phone": "(555) 555-3456",
+      "potential_job": "Quality Control Inspector",
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "Alex Johnson",
+      "gender": "male",
+      "email": "alex.johnson@example.com",
+      "phone": "(555) 555-7890",
+      "potential_job": "Production Supervisor",
+      "location": "Honolulu, Hawaii"
+    },
+    {
+      "name": "Megan Lee",
+      "gender": "female",
+      "email": "megan.lee@example.com",
+      "phone": "(555) 555-2345",
+      "potential_job": "Procurement Specialist",
+      "location": "Los Angeles, California"
+    },
+    {
+      "name": "David Chen",
+      "gender": "male",
+      "email": "david.chen@example.com",
+      "phone": "(555) 555-6789",
+      "potential_job": "Human Resources Manager",
+      "location": "New York City, New York"
+    },
+    {
+      "name": "Maria Garcia",
+      "gender": "female",
+      "email": "maria.garcia@example.com",
+      "phone": "(555) 555-0123",
+      "potential_job": "Electrical Engineer",
+      "location": "Oakland, California"
+    },
+    {
+      "name": "Luis Rodriguez",
+      "gender": "male",
+      "email": "luis.rodriguez@example.com",
+      "phone": "(555) 555-4567",
+      "potential_job": "Financial Analyst",
+      "location": "Jersey City, New Jersey"
+    },
+    {
+      "name": "Sarah Patel",
+      "gender": "female",
+      "email": "sarah.patel@example.com",
+      "phone": "(555) 555-8901",
+      "potential_job": "Maintenance Technician",
+      "location": "Washington, D.C."
+    },
+        {
+      "name": "Alicia Ramirez",
+      "gender": "female",
+      "email": "alicia.ramirez@example.com",
+      "phone": "(555) 555-1234",
+      "potential_job": "Sales Representative",
+      "location": "Los Angeles, California"
+    },
+    {
+      "name": "Brandon Davis",
+      "gender": "male",
+      "email": "brandon.davis@example.com",
+      "phone": "(555) 555-5678",
+      "potential_job": "Logistics Coordinator",
+      "location": "Houston, Texas"
+    },
+    {
+      "name": "Stephanie Lee",
+      "gender": "female",
+      "email": "stephanie.lee@example.com",
+      "phone": "(555) 555-9012",
+      "potential_job": "Environmental Health and Safety Specialist",
+      "location": "Seattle, Washington"
+    },
+    {
+      "name": "Jasmine Singh",
+      "gender": "female",
+      "email": "jasmine.singh@example.com",
+      "phone": "(555) 555-3456",
+      "potential_job": "Production Supervisor",
+      "location": "Honolulu, Hawaii"
+    },
+    {
+      "name": "Miguel Rodriguez",
+      "gender": "male",
+      "email": "miguel.rodriguez@example.com",
+      "phone": "(555) 555-7890",
+      "potential_job": "Electrical Engineer",
+      "location": "Oakland, California"
+    },
+    {
+      "name": "Caroline Kim",
+      "gender": "female",
+      "email": "caroline.kim@example.com",
+      "phone": "(555) 555-2345",
+      "potential_job": "Procurement Specialist",
+      "location": "Washington, D.C."
+    },
+    {
+      "name": "David Garcia",
+      "gender": "male",
+      "email": "david.garcia@example.com",
+      "phone": "(555) 555-6789",
+      "potential_job": "Financial Analyst",
+      "location": "New York City, New York"
+    },
+    {
+      "name": "Karen Martinez",
+      "gender": "female",
+      "email": "karen.martinez@example.com",
+      "phone": "(555) 555-0123",
+      "potential_job": "Quality Control Inspector",
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "Jessica Nguyen",
+      "gender": "female",
+      "email": "jessica.nguyen@example.com",
+      "phone": "(555) 555-4567",
+      "potential_job": "Maintenance Technician",
+      "location": "Miami, Florida"
+    },
+    {
+      "name": "William Kim",
+      "gender": "male",
+      "email": "william.kim@example.com",
+      "phone": "(555) 555-8901",
+      "potential_job": "Human Resources Manager",
+      "location": "Jersey City, New Jersey"
+    },
+       {
+      "name": "Samantha Lee",
+      "gender": "female",
+      "email": "samantha.lee@example.com",
+      "phone": "(555) 555-1234",
+      "potential_job": "Logistics Coordinator",
+      "location": "Seattle, Washington"
+    },
+    {
+      "name": "Jacob Nguyen",
+      "gender": "male",
+      "email": "jacob.nguyen@example.com",
+      "phone": "(555) 555-5678",
+      "potential_job": "Maintenance Technician",
+      "location": "Houston, Texas"
+    },
+    {
+      "name": "Emily Kim",
+      "gender": "female",
+      "email": "emily.kim@example.com",
+      "phone": "(555) 555-9012",
+      "potential_job": "Sales Representative",
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "David Rodriguez",
+      "gender": "male",
+      "email": "david.rodriguez@example.com",
+      "phone": "(555) 555-3456",
+      "potential_job": "Environmental Health and Safety Specialist",
+      "location": "Miami, Florida"
+    },
+    {
+      "name": "Alyssa Chen",
+      "gender": "female",
+      "email": "alyssa.chen@example.com",
+      "phone": "(555) 555-7890",
+      "potential_job": "Production Supervisor",
+      "location": "New York City, New York"
+    },
+    {
+      "name": "Ethan Davis",
+      "gender": "male",
+      "email": "ethan.davis@example.com",
+      "phone": "(555) 555-2345",
+      "potential_job": "Financial Analyst",
+      "location": "Jersey City, New Jersey"
+    },
+    {
+      "name": "Caitlin Nguyen",
+      "gender": "female",
+      "email": "caitlin.nguyen@example.com",
+      "phone": "(555) 555-6789",
+      "potential_job": "Procurement Specialist",
+      "location": "Washington, D.C."
+    },
+    {
+      "name": "Santiago Hernandez",
+      "gender": "male",
+      "email": "santiago.hernandez@example.com",
+      "phone": "(555) 555-0123",
+      "potential_job": "Quality Control Inspector",
+      "location": "Los Angeles, California"
+    },
+    {
+      "name": "Rachel Park",
+      "gender": "female",
+      "email": "rachel.park@example.com",
+      "phone": "(555) 555-4567",
+      "potential_job": "Electrical Engineer",
+      "location": "Oakland, California"
+    },
+    {
+      "name": "William Chen",
+      "gender": "male",
+      "email": "william.chen@example.com",
+      "phone": "(555) 555-8901",
+      "potential_job": "Human Resources Manager",
+      "location": "New York City, New York"
+    },
+    {
+      "name": "Ashley Kim",
+      "gender": "female",
+      "email": "ashley.kim@example.com",
+      "phone": "(555) 555-2345",
+      "potential_job": "Logistics Coordinator",
+      "location": "Seattle, Washington"
+    },
+        {
+      "name": "Oliver Williams",
+      "gender": "male",
+      "email": "oliver.williams@example.com",
+      "phone": "(555) 555-1234",
+      "potential_job": "Sales Representative",
+      "location": "Washington, D.C."
+    },
+    {
+      "name": "Mia Lee",
+      "gender": "female",
+      "email": "mia.lee@example.com",
+      "phone": "(555) 555-5678",
+      "potential_job": "Logistics Coordinator",
+      "location": "Honolulu, Hawaii"
+    },
+    {
+      "name": "Aiden Kim",
+      "gender": "male",
+      "email": "aiden.kim@example.com",
+      "phone": "(555) 555-9012",
+      "potential_job": "Environmental Health and Safety Specialist",
+      "location": "Miami, Florida"
+    },
+    {
+      "name": "Sophie Davis",
+      "gender": "female",
+      "email": "sophie.davis@example.com",
+      "phone": "(555) 555-3456",
+      "potential_job": "Maintenance Technician",
+      "location": "Houston, Texas"
+    },
+    {
+      "name": "Ethan Nguyen",
+      "gender": "male",
+      "email": "ethan.nguyen@example.com",
+      "phone": "(555) 555-7890",
+      "potential_job": "Production Supervisor",
+      "location": "Los Angeles, California"
+    },
+    {
+      "name": "Lila Patel",
+      "gender": "female",
+      "email": "lila.patel@example.com",
+      "phone": "(555) 555-2345",
+      "potential_job": "Quality Control Inspector",
+      "location": "Oakland, California"
+    },
+    {
+      "name": "Carter Martinez",
+      "gender": "male",
+      "email": "carter.martinez@example.com",
+      "phone": "(555) 555-6789",
+      "potential_job": "Human Resources Manager",
+      "location": "New York City, New York"
+    },
+    {
+      "name": "Isabella Chen",
+      "gender": "female",
+      "email": "isabella.chen@example.com",
+      "phone": "(555) 555-0123",
+      "potential_job": "Electrical Engineer",
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "Noah Hernandez",
+      "gender": "male",
+      "email": "noah.hernandez@example.com",
+      "phone": "(555) 555-4567",
+      "potential_job": "Procurement Specialist",
+      "location": "Jersey City, New Jersey"
+    },
+    {
+      "name": "Avery Nguyen",
+      "gender": "female",
+      "email": "avery.nguyen@example.com",
+      "phone": "(555) 555-8901",
+      "potential_job": "Financial Analyst",
+      "location": "Washington, D.C."
+    },
+    {
+      "name": "Daniel Kim",
+      "gender": "male",
+      "email": "daniel.kim@example.com",
+      "phone": "(555) 555-2345",
+      "potential_job": "Logistics Coordinator",
+      "location": "Seattle, Washington"
+    }
+]
