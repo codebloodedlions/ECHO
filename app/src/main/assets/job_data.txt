@@ -1,0 +1,62 @@
+[
+    {
+        "job_name": "Electrician/PLC Programmer",
+        "job_description": "Inspects, tests, repairs and maintains the electrical and instrumentation systems in a safe manner with and integrated box plant. Performs assignments requiring mechanical and electrical skills. Must be familiar with hydraulics and pneumatics. Must have expert mechanical and electrical troubleshooting experience and proven ability of machine repair. Knowledge of AC and DC motors installation and repair. PLC troubleshooting and ability to read and interpret electrical and mechanical drawings.",
+        "job_location": "Montgomery, IL",
+        "job_id": "60538"
+    },
+    {
+        "job_name": "Entry Level Printing Press Helper",
+        "job_description": "What if you were given the opportunity and responsibility to make a difference? At International Paper, you control your destiny. We offer challenging assignments and total rewards in countries around the world. When we say infinite possibilities, we mean it. Apply now and join a community that improves people’s lives, the planet and our company’s performance by transforming renewable resources into products people depend on every day.",
+        "job_location": "Indianapolis, IN",
+        "job_id": "46231"
+    },
+    {
+        "job_name": "General Labor",
+        "job_description": "What if you were given the opportunity and responsibility to make a difference? At International Paper, you control your destiny. We offer challenging assignments and total rewards in countries around the world. When we say infinite possibilities, we mean it. Apply now and join a community that improves people’s lives, the planet and our company’s performance by transforming renewable resources into products people depend on every day.",
+        "job_location": "Moses Lake, WA",
+        "job_id": "98837"
+    },
+    {
+        "job_name": "Area Maintenance Manager Product Unit - Paper Machine/Finishing",
+        "job_description": "The Area Maintenance Manager is responsible for achieving business results in his/her area, provides leadership to all facets of the production process, and helps build and support a high-performance work system. Champions the IP Way and the one-to-one process.The individual must support and exemplify the vision and organizational values of International Paper Flint River Mill. Qualified applicants will have the ability to work on concrete and periodically move equipment/tools weighing up to 50 lbs",
+        "job_location": "Oglethorpe, GA",
+        "job_id": "31068"
+    },
+    {
+        "job_name": "Machine Operator",
+        "job_description": "The Marion, OH container plant is currently seeking motivated candidates for positions in production to join our team.   Manufacturing experience preferred, but not required.  Candidates must successfully complete testing, interview, pre-employment drug screening, physical, background check and employment verification. Starting rate for entry-level positions is $19.97/hr. Upon completion of our probationary period rate of pay is up to $23.34. The Marion, Ohio corrugated packaging facility is undergoing exciting growth as we transition to a 24/7 operation. We will be going to a 12-hour shift rotation with a requirement to work every other weekend. There will be no mandatory overtime assigned but voluntary overtime may be available.",
+        "job_location": "Marion, OH",
+        "job_id": "98837"
+    },
+    {
+        "job_name": "Forklift Operator-3rd Shift",
+        "job_description": "What if you were given the opportunity and responsibility to make a difference? At International Paper, you control your destiny. We offer challenging assignments and total rewards in countries around the world. When we say infinite possibilities, we mean it. Apply now and join a community that improves people’s lives, the planet and our company’s performance by transforming renewable resources into products people depend on every day.",
+        "job_location": "Shakopee, MN",
+        "job_id": "55379"
+    },
+    {
+        "job_name": "IT Business Analyst ",
+        "job_description": "International Paper (NYSE: IP) is a leading global supplier of renewable fiber-based products. We produce corrugated packaging products that protect and promote goods, and enable worldwide commerce, and pulp for diapers, tissue and other personal care products that promote health and wellness. Headquartered in Memphis, Tenn., we employ approximately 38,000 colleagues globally. We serve customers worldwide, with manufacturing operations in North America, Latin America, North Africa and Europe. Net sales for 2021 were $19.4 billion. In Russia, we have a 50/50 joint venture, Ilim Group, the country's largest integrated manufacturer of pulp and paper. Additional information can be found by visiting InternationalPaper.com.",
+        "job_location": "Memphis, TN",
+        "job_id": "38197"
+    },
+    {
+        "job_name": "Baler",
+        "job_description": "What if you were given the opportunity and responsibility to make a difference? At International Paper, you control your destiny. We offer challenging assignments and total rewards in countries around the world. When we say infinite possibilities, we mean it. Apply now and join a community that improves people’s lives, the planet and our company’s performance by transforming renewable resources into products people depend on every day.",
+        "job_location": "Moses Lake, WA",
+        "job_id": "98837"
+    },
+    {
+        "job_name": "Production Supervisor",
+        "job_description": "We continue to build a better future for people, the planet, and our company! IP has been a good steward of sustainable practices across communities around the world for more than 120 years. Join our team and you’ll see why our team members say they’re Proud to be IP.",
+        "job_location": "Moses Lake, WA",
+        "job_id": "98903"
+    },
+    {
+        "job_name": "EMEA Talent Development Specialist",
+        "job_description": "As EMEA Talent Management Specialist you will be working as part of an enthusiastic, dedicated and creative EMEA Talent Management Team that supports internal customers across EMEA. You will be responsible for providing ongoing L&D support to IP EMEA locations. This position offers an opportunity to interact with internal customers of diverse backgrounds in a dynamic work environment where interpersonal skills, technical skills and a process approach can be developed on a daily basis.",
+        "job_location": "Madrid, M",
+        "job_id": "28006"
+    }
+]

@@ -6,6 +6,7 @@ import android.util.Log;
 
 import com.example.echo.db.model.Candidate;
 import com.example.echo.db.model.Event;
+import com.example.echo.db.model.Jobs;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -51,5 +52,20 @@ public class Util {
         }
 
         return EventData;
+    }
+
+    public static List<Jobs> jobDatatoList(AssetManager assetManager) throws IOException {
+        InputStream jobInput = assetManager.open("job_data.txt");
+
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        List<Jobs> jobData = Arrays.asList(objectMapper.readValue(jobInput, Jobs[].class));
+        jobInput.close();
+
+        for(int i = 0; i < jobData.size(); i++) {
+            Log.i("UTIL-INF-EVENT", String.valueOf(jobData.get(i).job_name));
+        }
+
+        return jobData;
     }
 }
