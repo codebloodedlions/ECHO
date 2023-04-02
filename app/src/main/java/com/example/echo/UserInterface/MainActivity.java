@@ -5,9 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 
 import com.example.echo.R;
+import com.example.echo.api.EventApiConn;
+import com.example.echo.api.EventGrabber;
 import com.example.echo.db.CandidateDB;
 import com.example.echo.db.EventDB;
 import com.example.echo.db.UserDB;
@@ -20,15 +23,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        AssetManager assetManager = getAssets();
 
         // init DB if true
         boolean POPULATE_DB = false;
         if (POPULATE_DB){
+            //AssetManager assetManager = getAssets();
             UserDB userDB = new UserDB(this);
             EventDB eventDB = new EventDB(this);
             CandidateDB candidateDB = new CandidateDB(this);
             try {
-                AssetManager assetManager = getAssets();
                 userDB.populateDB();
                 eventDB.populateDB(assetManager);
                 candidateDB.populateDB(assetManager);
