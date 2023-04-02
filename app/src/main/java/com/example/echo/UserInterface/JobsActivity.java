@@ -2,9 +2,11 @@ package com.example.echo.UserInterface;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.example.echo.R;
 import com.example.echo.Util;
@@ -20,6 +22,14 @@ public class JobsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jobs);
+
+        TextView body = findViewById(R.id.articleBodyNull);
+
+        body.setOnClickListener(view -> {
+            Intent intent = new Intent(this, JobDetail.class);
+            startActivity(intent);
+        });
+
         AssetManager assetManager = getAssets();
 
         List<Candidate> candidateData;

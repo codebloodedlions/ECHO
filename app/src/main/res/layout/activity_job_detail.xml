@@ -13,7 +13,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="12dp"
-        android:text="Blacks In Technology Conference"
+        android:text="Electrician/PLC Programmer"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -29,7 +29,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="12dp"
         android:ellipsize="end"
-        android:text="BITCON is a conference like no other. The annual conference for the Blacks In Technology community spotlights the digital divide for people of African descent while creating a platform to highlight and uplift individuals making extraordinary gain in information technology and related STEM fields. The conference is two parts professional development, one part block party, and one part networking, all designed to leave attendees educated, motivated, and inspired. "
+        android:text="Inspects, tests, repairs and maintains the electrical and instrumentation systems in a safe manner with and integrated box plant. Performs assignments requiring mechanical and electrical skills. Must be familiar with hydraulics and pneumatics. Must have expert mechanical and electrical troubleshooting experience and proven ability of machine repair. Knowledge of AC and DC motors installation and repair. PLC troubleshooting and ability to read and interpret electrical and mechanical drawings."
         android:textColor="#000000"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
-        android:text="Nashville, TN"
+        android:text="Oglethorpe, GA, US"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
@@ -85,17 +85,6 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/body1" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/candidatesRV"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
