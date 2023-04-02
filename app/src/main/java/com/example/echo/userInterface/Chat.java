@@ -1,8 +1,9 @@
-package com.example.echo.userInterface;
+package com.example.echo.UserInterface;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
 
 import android.content.res.AssetManager;
 import android.os.Bundle;
@@ -67,7 +68,7 @@ public class Chat extends AppCompatActivity {
         String completionType = "text";
 
         try {
-            Completions.addMsgArrResponse(dummy, messageAdapter, messageArrayList, BOT_KEY, assetManager, message, completionType);
+            Completions.addMsgArrResponse(dummy,messageAdapter, messageArrayList, BOT_KEY, assetManager, message, completionType);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

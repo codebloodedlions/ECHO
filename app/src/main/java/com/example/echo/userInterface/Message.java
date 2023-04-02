@@ -1,4 +1,4 @@
-package com.example.echo.userInterface;
+package com.example.echo.UserInterface;
 
 public class Message {
     private String message;

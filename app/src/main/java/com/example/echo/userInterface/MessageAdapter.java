@@ -1,4 +1,4 @@
-package com.example.echo.userInterface;
+package com.example.echo.UserInterface;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.echo.R;
 
 import java.util.ArrayList;
+import com.example.echo.UserInterface.Message;
 
 public class MessageAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
