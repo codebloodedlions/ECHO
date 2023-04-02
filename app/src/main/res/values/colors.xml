@@ -13,6 +13,7 @@
     <color name="darkBlueGrey">#252525</color>
     <color name="darkGrey">#7C7C7C</color>
     <color name="grey">#CCCACA</color>
+    <color name="lightGrey">#D5D5D5</color>
     <color name="green">#5BA994</color>
     <color name="darkBlueGreen">#275D5A</color>
 </resources>

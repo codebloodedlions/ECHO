@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
     tools:context=".UserInterface.Chat">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -12,12 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/messageBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/sendIV"
@@ -38,46 +36,12 @@
         android:layout_marginBottom="16dp"
         android:layout_weight="80"
         android:background="@drawable/response_box_background"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:hint="Type a message..."
+        android:textColorHint="@color/black"
         android:paddingStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/coraChatName"
-        android:layout_width="100dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="-10dp"
-        android:layout_marginLeft="8dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cora_name_logo" />
-
-    <ImageView
-        android:id="@+id/coraChatLogo"
-        android:layout_width="85dp"
-        android:layout_height="73dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/chatbot_logo" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="76dp"
-        android:text=""
-        android:textColor="@color/orange"
-        android:textSize="32sp"
-        app:layout_constraintEnd_toStartOf="@+id/coraChatLogo"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/dummy"
@@ -85,7 +49,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/messageBox"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

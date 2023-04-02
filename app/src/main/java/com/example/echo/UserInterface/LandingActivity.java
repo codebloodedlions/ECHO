@@ -16,9 +16,21 @@ public class LandingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_landing);
 
         Button eventsBtn = findViewById(R.id.eventsBtn);
+        Button chatbotBtn = findViewById(R.id.chatbotBtn);
+        Button candidatesBtn = findViewById(R.id.candidatesBtn);
 
         eventsBtn.setOnClickListener(view -> {
             Intent intent = new Intent(this, EventsActivity.class);
+            startActivity(intent);
+        });
+
+        chatbotBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, Chat.class);
+            startActivity(intent);
+        });
+
+        candidatesBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, JobsActivity.class);
             startActivity(intent);
         });
 

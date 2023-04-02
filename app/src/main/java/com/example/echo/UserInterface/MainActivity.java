@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // init DB if true
-        boolean POPULATE_DB = false;
+        boolean POPULATE_DB = true;
         if (POPULATE_DB){
             UserDB userDB = new UserDB(this);
             EventDB eventDB = new EventDB(this);
