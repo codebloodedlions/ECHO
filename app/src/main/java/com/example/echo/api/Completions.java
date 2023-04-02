@@ -7,8 +7,8 @@ import android.widget.TextView;
 import com.example.echo.ResponseParser;
 import com.example.echo.api.model.cRoot;
 import com.example.echo.keyRetrieval;
-import com.example.echo.userInterface.Message;
-import com.example.echo.userInterface.MessageAdapter;
+import com.example.echo.UserInterface.Message;
+import com.example.echo.UserInterface.MessageAdapter;
 
 import org.json.JSONObject;
 

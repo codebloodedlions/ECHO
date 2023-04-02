@@ -1,4 +1,4 @@
-package com.example.echo.userInterface;
+package com.example.echo.UserInterface;
 
 import android.content.Context;
 import android.view.LayoutInflater;

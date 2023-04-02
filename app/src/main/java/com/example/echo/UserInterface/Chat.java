@@ -1,4 +1,4 @@
-package com.example.echo.userInterface;
+package com.example.echo.UserInterface;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
