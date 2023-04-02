@@ -12,7 +12,16 @@
         android:theme="@style/Theme.ECHO"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".UserInterface.EventDetail"
+            android:exported="false" />
+        <activity
+            android:name=".UserInterface.LandingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInterface.EventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInterface.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
