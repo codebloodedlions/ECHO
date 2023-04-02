@@ -7,7 +7,7 @@
     tools:context=".UserInterface.JobDetail">
 
     <TextView
-        android:id="@+id/titleNull"
+        android:id="@+id/title1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/articleBodyNull"
+        android:id="@+id/body1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -34,7 +34,7 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleNull" />
+        app:layout_constraintTop_toBottomOf="@+id/title1" />
 
     <TextView
         android:id="@+id/locationTV"
@@ -46,7 +46,7 @@
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/articleBodyNull" />
+        app:layout_constraintTop_toBottomOf="@+id/body1" />
 
     <TextView
         android:id="@+id/textView"
@@ -84,7 +84,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/articleBodyNull" />
+        app:layout_constraintTop_toBottomOf="@+id/body1" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/candidatesRV"

@@ -20,18 +20,18 @@
             android:layout_width="250dp"
             android:layout_height="150dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/bitcon_image" />
+            android:src="@drawable/logo1" />
 
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/titleNull"
+        android:id="@+id/title1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="12dp"
-        android:text="Blacks In Technology Conference"
+        android:text="Sustainable Living Fair"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -41,19 +41,19 @@
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
     <TextView
-        android:id="@+id/articleBodyNull"
+        android:id="@+id/body1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="12dp"
         android:ellipsize="end"
-        android:text="BITCON is a conference like no other. The annual conference for the Blacks In Technology community spotlights the digital divide for people of African descent while creating a platform to highlight and uplift individuals making extraordinary gain in information technology and related STEM fields. The conference is two parts professional development, one part block party, and one part networking, all designed to leave attendees educated, motivated, and inspired. "
+        android:text="Since the year 2000 the Sustainable Living Association (SLA) has helped to grow the awareness and adoption of sustainable practices through all walks of life. This has been accomplished through countless community conversations, news articles, workshops, and through the organization’s flagship event, The Sustainable Living Fair."
         android:textColor="#000000"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleNull" />
+        app:layout_constraintTop_toBottomOf="@+id/title1" />
 
     <Button
         android:id="@+id/addToCalendarBtn"
@@ -83,7 +83,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/articleBodyNull"
+        app:layout_constraintTop_toBottomOf="@+id/body1"
         app:srcCompat="@drawable/location_icon" />
 
     <TextView
@@ -92,34 +92,33 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="22dp"
-        android:text="Nashville, TN"
+        android:text="Fort Collins, CO"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/articleBodyNull" />
+        app:layout_constraintTop_toBottomOf="@+id/body1" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/locationTV"
-        app:layout_constraintTop_toBottomOf="@+id/articleBodyNull"
+        app:layout_constraintTop_toBottomOf="@+id/body1"
         app:srcCompat="@drawable/calendar_icon" />
 
     <TextView
         android:id="@+id/dateTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="12dp"
-        android:text="September 7th-9th, 2023"
+        android:text="July 11th-12th, 2023"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/articleBodyNull" />
+        app:layout_constraintTop_toBottomOf="@+id/body1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
