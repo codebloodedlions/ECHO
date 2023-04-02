@@ -104,7 +104,7 @@ public class Completions {
                 case "text":
                     Log.i("[API]", "Setting model to text completion!");
                     completionType = "text-davinci-003";
-                    maxToken = 75;
+                    maxToken = 419;
                     break;
                 default:
                     Log.e("[API]", "[API-SET-MODEL] COME ON D! yes I'm looking at you!");
