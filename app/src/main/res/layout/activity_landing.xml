@@ -4,50 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".UserInterface.LandingActivity">
 
-    tools:context=".UserInterface.MainActivity">
-
-    <EditText
-        android:id="@+id/usernameET"
-        android:layout_width="275dp"
-        android:layout_height="45dp"
+    <Button
+        android:id="@+id/eventsBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="312dp"
-        android:background="@drawable/login_background"
-        android:ems="10"
-        android:hint="Username"
-        android:inputType="textPersonName"
-        android:padding="10dp"
+        android:text="Events"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/passwordET"
-        android:layout_width="275dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/login_background"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPersonName"
-        android:padding="10dp"
+    <Button
+        android:id="@+id/chatbotBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Chatbot"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameET" />
+        app:layout_constraintTop_toBottomOf="@+id/eventsBtn" />
 
     <Button
-        android:id="@+id/loginBtn"
-        android:layout_width="275dp"
+        android:id="@+id/candidatesBtn"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/button_background"
-        android:text="Login"
+        android:layout_marginTop="16dp"
+        android:text="Candidates"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordET" />
+        app:layout_constraintTop_toBottomOf="@+id/chatbotBtn" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         android:layout_width="375dp"
         android:layout_height="375dp"
         android:layout_marginTop="32dp"
@@ -55,4 +46,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
