@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".userInterface.Chat"
+            android:name=".UserInterface.Chat"
             android:exported="false" />
     </application>
 
