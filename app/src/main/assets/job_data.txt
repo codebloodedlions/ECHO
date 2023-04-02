@@ -36,7 +36,7 @@
         "job_id": "55379"
     },
     {
-        "job_name": "IT Business Analyst ",
+        "job_name": "IT Business Analyst",
         "job_description": "International Paper (NYSE: IP) is a leading global supplier of renewable fiber-based products. We produce corrugated packaging products that protect and promote goods, and enable worldwide commerce, and pulp for diapers, tissue and other personal care products that promote health and wellness. Headquartered in Memphis, Tenn., we employ approximately 38,000 colleagues globally. We serve customers worldwide, with manufacturing operations in North America, Latin America, North Africa and Europe. Net sales for 2021 were $19.4 billion. In Russia, we have a 50/50 joint venture, Ilim Group, the country's largest integrated manufacturer of pulp and paper. Additional information can be found by visiting InternationalPaper.com.",
         "job_location": "Memphis, TN",
         "job_id": "38197"

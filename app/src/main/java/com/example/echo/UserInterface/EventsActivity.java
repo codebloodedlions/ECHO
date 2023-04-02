@@ -41,7 +41,6 @@ public class EventsActivity extends AppCompatActivity {
         });
         test.start();
 
-
         //eventArrayList.addAll(threadedDataList);
         eventsRV = findViewById(R.id.eventsRV);
         eventsRV.setHasFixedSize(true);
