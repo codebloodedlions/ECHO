@@ -5,12 +5,13 @@ import android.util.Log;
 
 import com.example.echo.api.model.eventapi.Root;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 // 0-2 have different data verbosity
 public class EventGrabber {
-    public Object[] getEventData(AssetManager assetManager){
-        Object[] temp = new Object[3];
+    public static ArrayList<String[]> getEventData(AssetManager assetManager){
+        ArrayList<String[]> temp = new ArrayList<>();
 
         String divCityStr = "";
         String[] divCityArr = {};
@@ -36,9 +37,9 @@ public class EventGrabber {
         divEventDescArr = divEventDescStr.split(",");
         System.out.println(Arrays.toString(divEventDescArr));
 
-        temp[0] = divCityArr;
-        temp[1] = divEventArr;
-        temp[2] = divEventDescArr;
+        temp.add(divCityArr);
+        temp.add(divEventArr);
+        temp.add(divEventDescArr);
 
         return temp;
     }

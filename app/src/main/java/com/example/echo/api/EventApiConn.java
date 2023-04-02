@@ -41,6 +41,7 @@ public class EventApiConn {
             // to use api key, create a file called 'API_KEY.txt' in 'main' and paste your API key on the very first line
             // "fileHandler" should automatically pick up the file and extract the key.
             connection.setRequestProperty("Authorization", "Bearer " + keyRetrieval.getKey(assetManager));
+            Log.i("[API-KEY-419]", keyRetrieval.getKey(assetManager));
 
             // connect ensure -- can't write to connection if disabled or false
             connection.setDoOutput(true);
