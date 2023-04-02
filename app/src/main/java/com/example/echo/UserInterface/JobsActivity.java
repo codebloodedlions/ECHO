@@ -22,6 +22,7 @@ public class JobsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jobs);
+        AssetManager assetManager = getAssets();
 
         TextView body = findViewById(R.id.articleBodyNull);
 
@@ -29,8 +30,6 @@ public class JobsActivity extends AppCompatActivity {
             Intent intent = new Intent(this, JobDetail.class);
             startActivity(intent);
         });
-
-        AssetManager assetManager = getAssets();
 
         List<Candidate> candidateData;
         List<Jobs> jobsData;
