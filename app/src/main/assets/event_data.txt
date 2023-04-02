@@ -1,0 +1,122 @@
+[
+	{
+		"event_name": "Black History Month Celebration",
+		"event_date": "2023-02-15T18:00:00",
+		"event_location": "Chicago, IL",
+		"event_description": "Join us in celebrating Black History Month with music, food, and a keynote speech by a prominent Black historian. This event is open to everyone.",
+		"event_website": "https://www.example.com/black-history-month-2023",
+		"event_contact": {
+		  "name": "Karen Davis",
+		  "email": "karen.davis@example.com",
+		  "phone": "+1 (555) 123-4567"
+		}
+	},
+	{
+	  "event_name": "LGBTQ+ Film Festival",
+	  "event_date": "2023-06-22T18:00:00",
+	  "event_location": "New York, NY",
+	  "event_description": "Join us for a week-long film festival featuring LGBTQ+ themed films from around the world. The event also features Q&A sessions with filmmakers and industry professionals. This event is free and open to everyone.",
+	  "event_website": "https://www.example.com/lgbtq-film-festival-2023",
+	  "event_contact": {
+		"name": "John Doe",
+		"email": "john.doe@example.com",
+		"phone": "+1 (555) 123-4567"
+	  }
+	},
+	{
+	  "event_name": "Asian Pacific American Heritage Month Festival",
+	  "event_date": "2023-05-20T10:00:00",
+	  "event_location": "New York City, New York",
+	  "event_description": "Join us for a festival celebrating the culture and history of Asian Pacific Americans. The event features food, music, dance, and cultural performances. This event is free and open to everyone.",
+	  "event_website": "https://www.example.com/asian-pacific-american-festival-2023",
+	  "event_contact": {
+		"name": "Jane Lee",
+		"email": "jane.lee@example.com",
+		"phone": "555-987-6543"
+	  }
+	},
+	{
+	  "event_name": "International Day of Persons with Disabilities Conference",
+	  "event_date": "2023-12-03T09:00:00",
+	  "event_location": "Sydney, Australia",
+	  "event_description": "Join us for a conference discussing disability inclusion and accessibility. The event features speakers, workshops, and networking opportunities. This event is free and open to everyone.",
+	  "event_website": "https://www.example.com/disabilities-conference-2023",
+	  "event_contact": {
+		"name": "Mark Johnson",
+		"email": "mark.johnson@example.com",
+		"phone": "555-567-8901"
+	  }
+	},
+	{
+	  "event_name": "Native American Heritage Month Powwow",
+	  "event_date": "2023-11-18T11:00:00",
+	  "event_location": "Albuquerque, New Mexico",
+	  "event_description": "Join us for a powwow celebrating Native American culture and heritage. The event features traditional dance, music, and food. This event is free and open to everyone.",
+	  "event_website": "https://www.example.com/native-american-powwow-2023",
+	  "event_contact": {
+		"name": "Lakota Martinez",
+		"email": "lakota.martinez@example.com",
+		"phone": "555-432-1098"
+	  }
+	},
+	{
+	  "event_name": "Jewish American Heritage Month Film Festival",
+	  "event_date": "2023-05-12T18:00:00",
+	  "event_location": "Los Angeles, California",
+	  "event_description": "Join us for a film festival celebrating Jewish American culture and history. The event features screenings of classic and contemporary films, as well as Q&A sessions with filmmakers and actors. This event is free and open to everyone.",
+	  "event_website": "https://www.example.com/jewish-american-film-festival-2023",
+	  "event_contact": {
+		"name": "Rachel Cohen",
+		"email": "rachel.cohen@example.com",
+		"phone": "555-246-8100"
+	  }
+	},
+	{
+	  "event_name": "Women in Leadership Symposium",
+	  "event_date": "2023-03-10T09:00:00",
+	  "event_location": "New York, New York",
+	  "event_description": "Join us for a symposium discussing the challenges and opportunities faced by women in leadership positions. The event features keynote speakers, panel discussions, and networking opportunities. This event is open to everyone.",
+	  "event_website": "https://www.example.com/women-in-leadership-2023",
+	  "event_contact": {
+		"name": "Maria Rodriguez",
+		"email": "maria.rodriguez@example.com",
+		"phone": "555-555-1212"
+	  }
+	},
+	{
+	  "event_name": "Diversity and Inclusion Career Fair",
+	  "event_date": "2023-09-15T10:00:00",
+	  "event_location": "Atlanta, Georgia",
+	  "event_description": "Join us for a career fair focused on connecting diverse talent with employers committed to creating inclusive work environments. The event features a range of companies from various industries, as well as networking opportunities and professional development sessions. This event is free and open to the public.",
+	  "event_website": "https://www.example.com/diversity-career-fair-2023",
+	  "event_contact": {
+		"name": "Jasmine Williams",
+		"email": "jasmine.williams@example.com",
+		"phone": "555-555-1212"
+	  }
+	},
+	{
+	  "event_name": "National Black MBA Association Conference and Career Fair",
+	  "event_date": "2023-09-21T09:00:00",
+	  "event_location": "Houston, Texas",
+	  "event_description": "Join us for the National Black MBA Association's annual conference and career fair. This event features keynote speakers, professional development sessions, and a career fair with top companies. This event is open to everyone.",
+	  "event_website": "https://www.example.com/national-black-mba-conference-2023",
+	  "event_contact": {
+		"name": "John Smith",
+		"email": "john.smith@example.com",
+		"phone": "555-123-4567"
+	  }
+	},
+	{
+	  "event_name": "Diversity in Tech Career Fair",
+	  "event_date": "2023-09-15T10:00:00",
+	  "event_location": "San Francisco, California",
+	  "event_description": "Join us for a career fair aimed at promoting diversity and inclusion in the tech industry. The event features networking opportunities, job opportunities, and panel discussions on diversity in tech. This event is open to everyone.",
+	  "event_website": "https://www.example.com/diversity-in-tech-career-fair-2023",
+	  "event_contact": {
+		"name": "Samantha Chen",
+		"email": "samantha.chen@example.com",
+		"phone": "555-555-1212"
+	  }
+	}
+]
