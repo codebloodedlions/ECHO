@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         AssetManager assetManager = getAssets();
 
         // init DB if true
-        boolean POPULATE_DB = true;
+        boolean POPULATE_DB = false;
         if (POPULATE_DB){
             //AssetManager assetManager = getAssets();
             UserDB userDB = new UserDB(this);
