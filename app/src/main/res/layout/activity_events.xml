@@ -6,12 +6,212 @@
     android:layout_height="match_parent"
     tools:context=".UserInterface.EventsActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/eventsRV"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addToCalendarBtn3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add to Calendar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTV2" />
+
+    <TextView
+        android:id="@+id/descriptionTV2"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="BITCON is a conference like no other. The annual conference for the Blacks In Technology community spotlights the digital divide for people of African descent while creating a platform to highlight and uplift individuals making extraordinary gain in information technology and related STEM fields. The conference is two parts professional development, one part block party, and one part networking, all designed to leave attendees educated, motivated, and inspired. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/titleTV2" />
+
+    <TextView
+        android:id="@+id/titleTV2"
+        android:layout_width="225dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Blacks In Technology Conference"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/addToCalendarBtn2" />
+
+    <Button
+        android:id="@+id/addToCalendarBtn2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Add to Calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTV" />
+
+    <TextView
+        android:id="@+id/descriptionTV"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="BITCON is a conference like no other. The annual conference for the Blacks In Technology community spotlights the digital divide for people of African descent while creating a platform to highlight and uplift individuals making extraordinary gain in information technology and related STEM fields. The conference is two parts professional development, one part block party, and one part networking, all designed to leave attendees educated, motivated, and inspired. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/titleTV" />
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="225dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Blacks In Technology Conference"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/addToCalendarBtn10" />
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:src="@drawable/bitcon_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addToCalendarBtn2" />
+
+    <TextView
+        android:id="@+id/titleNull"
+        android:layout_width="225dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Blacks In Technology Conference"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/articleBodyNull"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="BITCON is a conference like no other. The annual conference for the Blacks In Technology community spotlights the digital divide for people of African descent while creating a platform to highlight and uplift individuals making extraordinary gain in information technology and related STEM fields. The conference is two parts professional development, one part block party, and one part networking, all designed to leave attendees educated, motivated, and inspired. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/titleNull" />
+
+    <Button
+        android:id="@+id/addToCalendarBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Add to Calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/articleBodyNull" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:padding="5dp"
+        android:src="@drawable/bitcon_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addToCalendarBtn" />
+
+
+    <TextView
+        android:id="@+id/titleTV10"
+        android:layout_width="225dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Blacks In Technology Conference"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/addToCalendarBtn" />
+
+    <TextView
+        android:id="@+id/descriptionTV10"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="BITCON is a conference like no other. The annual conference for the Blacks In Technology community spotlights the digital divide for people of African descent while creating a platform to highlight and uplift individuals making extraordinary gain in information technology and related STEM fields. The conference is two parts professional development, one part block party, and one part networking, all designed to leave attendees educated, motivated, and inspired. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/titleTV10" />
+
+    <Button
+        android:id="@+id/addToCalendarBtn10"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Add to Calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTV10" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:src="@drawable/bitcon_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addToCalendarBtn10" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:padding="5dp"
+        android:src="@drawable/bitcon_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
